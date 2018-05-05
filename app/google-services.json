@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1001216600709",
+    "firebase_url": "https://wallet-7e461.firebaseio.com",
+    "project_id": "wallet-7e461",
+    "storage_bucket": "wallet-7e461.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001216600709:android:fb37b1142b10ce83",
+        "android_client_info": {
+          "package_name": "com.cmcm.blockchain.bitcoin.ethereum.safewallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001216600709-p0vshsjvrt32noaai453htcjhcgj75tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtE8GdcKtx46ztc5OgXf4Hnj5dSEEZHmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
