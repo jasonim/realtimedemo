@@ -68,16 +68,20 @@ public class MainActivity extends AppCompatActivity {
                             String referrerUid = deepLink.getQueryParameter("invitedby");
                             Log.e(TAG, "onSuccess: uid " + referrerUid);
                             DatabaseReference users = database.getReference().child("users");
-                            users.removeValue();
-                            users.child("id_b").removeValue();
 
-                            User user = new User("b", "id_a", 0, ServerValue.TIMESTAMP);
-//                            DatabaseReference userRecord =
-//                                    database.getReference()
-//                                            .child("users")
-//                                            .child("id_b");
-//                            userRecord.child("last_signin_at").setValue(ServerValue.TIMESTAMP);
-                            users.child("id_b").setValue(user);
+//                            users.child("id_c").removeValue();
+                            User user = new User("f", "id_e", 0, ServerValue.TIMESTAMP);
+                            users.child("id_f").setValue(user);
+
+
+//                            users.removeValue();
+//                            User user = new User("b", "id_a", 0, ServerValue.TIMESTAMP);
+////                            DatabaseReference userRecord =
+////                                    database.getReference()
+////                                            .child("users")
+////                                            .child("id_b");
+////                            userRecord.child("last_signin_at").setValue(ServerValue.TIMESTAMP);
+//                            users.child("id_b").setValue(user);
                         }
                     }
                 })
